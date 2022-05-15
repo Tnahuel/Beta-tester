@@ -210,17 +210,36 @@ input{
     text-align: center;
     height: 200px;
     font-family: 'Bangers', cursive;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10%;
 }
+
+
+
 .footer__principal h2 {
 
-    border: 10px;
-
+    border-top: 10px;
+    grid-column: 1/5;
+    grid-row: 2;
+    
 }
-..footer__principal img{
+.wps {
+    grid-row: 4;
+}
+.face {
+    grid-row: 4;
+}
+
+.insta {
+    grid-row: 4;
+}
+.mail {
+    grid-row: 4;
+}
+
+.footer__principal img{
 width: 45px;
 height: 45px;
-
 }

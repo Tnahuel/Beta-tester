@@ -265,5 +265,42 @@ align-items: center;
     scale: 1;
     color: rgb(0, 0, 109);
 }
+}
 
+/* Footer */
+
+.footer__principal {
+    background-color: rgb(0, 0, 46);
+    color: whitesmoke;
+    margin: 30px;
+    border-radius: 20px;
+    text-align: center;
+    height: 200px;
+    font-family: 'Bangers', cursive;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10%;
+}
+.footer__principal h2 {
+    border-top: 10px;
+    grid-column: 1/5;
+    grid-row: 2;
+    
+}
+.wps {
+    grid-row: 4;
+}
+.face {
+    grid-row: 4;
+}
+.insta {
+    grid-row: 4;
+}
+.mail {
+    grid-row: 4;
+}
+.footer__principal img{
+width: 45px;
+height: 45px;
 }
