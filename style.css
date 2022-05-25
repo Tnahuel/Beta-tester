@@ -259,7 +259,7 @@ align-items: center;
 }
 80%{
     scale: 0.95;
-    color: black
+    color: yellow
 }
 100%{
     scale: 1;
@@ -316,7 +316,7 @@ span{
     height: 50px;
     animation: luna 2s linear infinite;
     display: flex;
-    position: relative;  
+    position: absolute;  
     margin-top: 1px;
     margin-left: 10px;  
     border-radius: 50%;
@@ -423,14 +423,14 @@ nav{
     /* position: relative; */
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin-top: 100px;
     margin-left: 10%;
     margin-right: auto;
     border-radius: 20px;
     width: 80%;
-    height: 650px;
+    height: 460px;
     font-family: 'Bangers', cursive;
     color:aliceblue;
 
@@ -463,7 +463,129 @@ nav{
     border-radius: 20px;
     border:solid white 3px;
 }
+/* Conociminetos de programacion actuales */
+.iconos-principal {
+    background-color: rgb(89, 3, 169);
+    border-radius:20px;
+    margin: auto;
+    font-family: 'Bangers', cursive;
+    color: aliceblue;
+    height: auto;
+    width: 90%;
+    margin: 3%;
+}
 
+.titulo-iconos{
+    text-align: center;
+    font-size: 14px ;
+    padding: 30px;
+    height: 50px;
+    border: 100px;
+}
 
+    .titulo-iconos :hover{
+        scale: 1.5;
+        color: rgb(0, 0, 109);
+    }
 
+.iconos-manejo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    height: 60%;
+    
+}
+.HTML {
+height: 100%;
+width: 33.3%;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+}
+.HTML img{
+    width: 48px;
+    height: 48px;
+}
+.HTML img:hover {
+    transform: scale(1.5);
+    transition: .3S;
+    box-shadow: rgb(0, 0, 170);
+}
+.CSS{
+    height: 100%;
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.CSS img:hover {
+    transform: scale(1.5);
+    transition: .3S;
+    box-shadow: rgb(0, 0, 170);
+}
+.CSS img{
+    width: 48px;
+    height: 48px;
+}
+.JS{
+    height: 100%;
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.JS img:hover {
+    transform: scale(1.5);
+    transition: .3S;
+    box-shadow: rgb(0, 0, 170);
+}
+.JS img{
+    width: 48px;
+    height: 48px;
+}
+.JS p{
+    width: 95%;
+}
+
+.footer__principal {
+    background-color: rgb(0, 0, 46);
+    color: whitesmoke;
+    margin: 30px;
+    border-radius: 20px;
+    text-align: center;
+    height: 200px;
+    font-family: 'Bangers', cursive;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10%;
+}
+.footer__principal h2 {
+    border-top: 10px;
+    grid-column: 1/5;
+    grid-row: 2;
+    
+}
+.wps {
+    grid-row: 4;
+}
+.face {
+    grid-row: 4;
+}
+.insta {
+    grid-row: 4;
+}
+.mail {
+    grid-row: 4;
+}
+.footer__principal img{
+width: 45px;
+height: 45px;
+
+}
 }
