@@ -315,11 +315,11 @@ and (orientation: portrait){
 span{
     width: 50px;
     height: 50px;
-    animation: luna 2s linear infinite;
+    animation: luna 4s linear infinite;
     display: flex;
     position: absolute;  
     margin-top: 1px;
-    margin-left: 10px;  
+    margin-left: -1px;  
     border-radius: 50%;
     box-shadow: rgb(86, 21, 148);
 }
@@ -348,8 +348,8 @@ nav{
     text-decoration: none;
 }
 .Inicio:hover{
-        color: rgb(0, 0, 105);
-        scale: 1.5;
+     color: rgb(0, 0, 105);
+     scale: 1.5;
 }
 .Serivicos{
     color: aliceblue;
