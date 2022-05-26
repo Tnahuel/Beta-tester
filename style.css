@@ -319,9 +319,9 @@ span{
     display: flex;
     position: absolute;  
     margin-top: 1px;
-    margin-left: -1px;  
     border-radius: 50%;
     box-shadow: rgb(86, 21, 148);
+    margin-left: -2px;
 }
 nav{
     display: flex;
@@ -434,9 +434,6 @@ nav{
     height: 460px;
     font-family: 'Bangers', cursive;
     color:aliceblue;
-
-
-
 }
     .history{
         display: flex;
@@ -451,6 +448,8 @@ nav{
     .history h1 {
         animation: texto 3s ease infinite;
         margin: 20px;
+        
+        padding-top: 20px;
     }
 /* Foto de perfil */
 .erperfil {
@@ -463,6 +462,7 @@ nav{
     height: 150px;
     border-radius: 20px;
     border:solid white 3px;
+    bottom: 15px;
 }
 /* Conociminetos de programacion actuales */
 .iconos-principal {
@@ -482,6 +482,8 @@ nav{
     padding: 30px;
     height: 50px;
     border: 100px;
+    top: 10px;
+    margin:20px
 }
 
     .titulo-iconos :hover{
