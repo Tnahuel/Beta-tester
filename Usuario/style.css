@@ -252,12 +252,12 @@ and (orientation: portrait){
 span{
     width: 50px;
     height: 50px;
-    animation: luna 2s linear infinite;
+    animation: luna 4s linear infinite;
     display: flex;
     position: absolute;  
     margin-top: 1px;
-    margin-left: 10px;  
     border-radius: 50%;
     box-shadow: rgb(86, 21, 148);
+    margin-left: -2px;
 }
 }
